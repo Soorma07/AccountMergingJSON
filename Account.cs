@@ -2,10 +2,12 @@
 
 namespace AccountMerging
 {
+    // An account for an application.
+    // A user can have multiple emails.
     public class Account
     {
-        public string Application;
-        public List<string> Emails;
-        public string Name;
+        public string application;
+        public List<string> emails;
+        public string name;
     }
 }
